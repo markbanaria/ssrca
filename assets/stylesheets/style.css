@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSans_100.otf");
+  font-weight: 100; }
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSans_300.otf");
+  font-weight: 300; }
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSans_500.otf");
+  font-weight: 500; }
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSans_700.otf");
+  font-weight: 700; }
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSans_900.otf");
+  font-weight: 900; }
+body {
+  background: #ecebeb; }
+  body * {
+    font-family: "MuseoSans", sans-serif; }
+  body header {
+    background: #004c97;
+    padding: 0; }
+    body header .rcalogo {
+      height: 40px;
+      margin: 24px; }
+    body header .poweredby {
+      float: right;
+      padding: 32px;
+      border-left: solid 1px rgba(255, 255, 255, 0.3);
+      cursor: pointer; }
+      body header .poweredby:hover {
+        background: rgba(0, 0, 0, 0.08); }
+      body header .poweredby h5 {
+        margin: 0 24px;
+        display: inline-block;
+        color: white;
+        font-weight: 100;
+        opacity: 0.8; }
+    body header .sslogo {
+      height: 24px; }
+  body .intro {
+    padding-top: 9em;
+    padding-bottom: 6em;
+    background-image: linear-gradient(to bottom, rgba(0, 5, 15, 0.6), rgba(0, 5, 15, 0.6)), url("../images/intro2.jpg");
+    background-size: cover;
+    background-position: 0 40%; }
+    body .intro h1 {
+      margin-top: 0;
+      margin-left: 24px;
+      font-size: 72px;
+      color: white;
+      font-weight: 700;
+      line-height: 1.45em; }
+    body .intro p {
+      margin-top: 16px;
+      margin-left: 24px;
+      color: white;
+      font-size: 24px;
+      font-weight: 300; }
+    body .intro #houseicon {
+      position: absolute;
+      left: 0;
+      top: 11em;
+      padding: 0;
+      height: 46px;
+      width: auto; }
+  body .ssform {
+    padding-top: 5em; }
+    body .ssform h2 {
+      margin: 0 0 32px 0;
+      color: #004c97;
+      font-size: 48px;
+      font-weight: 300; }
+    body .ssform .input-block {
+      margin-top: 16px;
+      background: #e2e1e1;
+      padding: 32px; }
+      body .ssform .input-block:hover {
+        background: #dddcdc; }
+      body .ssform .input-block h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #605d5d; }
+      body .ssform .input-block input[type="text"] {
+        font-size: 16px;
+        line-height: 1.5;
+        background: whitesmoke;
+        border: 1px solid lightgray;
+        padding: 8px 16px; }
+    body .ssform input[type="submit"] {
+      background: #70BD36;
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 20px 0;
+      border: none;
+      outline: none;
+      margin-top: 16px;
+      margin-bottom: 96px; }
+  body #footer {
+    padding: 0;
+    background: #004c97;
+    min-height: 320px; }
+    body #footer .navlinks {
+      padding: 48px 0 28px 0;
+      list-style-type: none; }
+      body #footer .navlinks li {
+        font-size: 16px;
+        color: white;
+        opacity: 0.75;
+        display: inline-block;
+        padding: 12px; }
+        body #footer .navlinks li:first-child {
+          padding-left: 0; }
+      body #footer .navlinks.international {
+        padding: 0;
+        font-weight: 100; }
+        body #footer .navlinks.international li {
+          font-size: 12px;
+          padding: 8px; }
+        body #footer .navlinks.international .title {
+          font-weight: 700;
+          opacity: 1;
+          padding-left: 0; }
+    body #footer img.footer-bg {
+      height: 320px;
+      margin: 0;
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+    body #footer img.links {
+      height: 28px;
+      margin-right: 32px;
+      margin-bottom: 48px; }
